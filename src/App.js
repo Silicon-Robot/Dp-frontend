@@ -13,12 +13,12 @@ class App extends React.Component {
         return (
          <Router >
             <Switch >
-            <Route exact path = '/signin' > <SignIn / > </Route>
-            <Route exact path = '/' > <DisplayTable / > </Route> 
-            <Route exact path = '/restpwd' > <ForgotPassword / > </Route> 
-            <Route exact path = '/sendMail' > <SendMail / > </Route> 
-            <Route exact path = '/signup' > <SignUp / > </Route>  
-            <Redirect to = '/' / >hello 
+            <Route exact path = '/signin' > <SignIn /> </Route>
+            <Route exact path = '/' > <DisplayTable /> </Route> 
+            <Route exact path = '/resetpwd' > <ForgotPassword /> </Route> 
+            <Route exact path = '/sendMail' > <SendMail /> </Route> 
+            <Route exact path = '/signup' > <SignUp /> </Route>  
+            <Redirect to = '/' />hello 
             </Switch>
       </Router >
         );
